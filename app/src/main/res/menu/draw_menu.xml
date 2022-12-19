@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation-view">
+
+      <group android:checkableBehavior="single">
+          <item android:id="@+id/nav_photo"
+              android:icon="@drawable/ic_photo"
+              android:title="Photo"/>
+          <item android:id="@+id/nav_portrait"
+              android:icon="@drawable/ic_portrait"
+              android:title="Portrait"/>
+          <item android:id="@+id/nav_landscape"
+              android:icon="@drawable/ic_landscape"
+              android:title="Landscape"/>
+      </group>
+</menu>
